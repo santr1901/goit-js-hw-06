@@ -15,11 +15,14 @@ const images = [
 
 const list = document.querySelector('.gallery');
 
-
-
-for (let image of images) {
+images.map((image)=>{
   list.insertAdjacentHTML('beforeend', `<li><img src= ${image.url}, alt= ${image.alt}></li>`);
-}
+})
+
+
+// for (let image of images) {
+//   list.insertAdjacentHTML('beforeend', `<li><img src= ${image.url}, alt= ${image.alt}></li>`);
+// }
 
 const style = document.createElement('style');
 
