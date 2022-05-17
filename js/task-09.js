@@ -11,6 +11,5 @@ function changeColor () {
 
 }
 
-console.log(body);
 
 body.addEventListener('click', changeColor);

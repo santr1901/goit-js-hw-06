@@ -7,4 +7,4 @@ const changeSize =(event)=>{
     
 }
 
-sizeControl.addEventListener('change', changeSize);
+sizeControl.addEventListener('input', changeSize);
